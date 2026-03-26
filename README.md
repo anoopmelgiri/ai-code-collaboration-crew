@@ -1,8 +1,8 @@
-# 🚀 AI Code Collaboration Crew
+# AI Code Collaboration Crew
 
 A multi-agent AI system built using CrewAI that simulates a collaborative software engineering workflow.
 
-## 🧠 Overview
+## Overview
 
 This project demonstrates how specialized AI agents can work together to:
 
@@ -10,18 +10,18 @@ This project demonstrates how specialized AI agents can work together to:
 * Review and optimize it
 * Create comprehensive test cases
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 * CrewAI
 * OpenAI
-* Python 3.10+
+* Python 3.11
 * uv (fast dependency manager)
 
-## 🏗️ Architecture
+## Architecture
 
 Backend Engineer → Code Reviewer → QA Engineer
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Install uv
 
@@ -49,25 +49,16 @@ cp .env.example .env
 python main.py --feature "Create a function to validate email addresses"
 ```
 
-## 📌 Example Use Cases
-
-* API generation
-* Data validation utilities
-* Automation scripts
-
-## 🔥 Key Features
+## Key Features
 
 * Multi-agent collaboration
 * Memory-enabled workflows
 * Modular architecture
 * Extensible with tools (e.g., code execution)
 
-## 📈 Future Improvements
+## Future Improvements
 
 * GitHub PR automation
 * Code execution validation
 * UI dashboard
 
-## 👩‍💻 Author
-
-Your Name
