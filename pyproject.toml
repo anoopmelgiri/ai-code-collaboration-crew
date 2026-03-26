@@ -1,0 +1,23 @@
+[project]
+name = "ai-code-collaboration-crew"
+version = "0.1.0"
+description = "Multi-agent AI system for collaborative code generation, review, and testing using CrewAI"
+authors = [{ name = "Your Name" }]
+requires-python = ">=3.10"
+
+dependencies = [
+    "crewai",
+    "litellm>=1.75.3",
+    "openai",
+    "python-dotenv",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest",
+    "black",
+    "ruff"
+]
+override-dependencies = [
+    "lancedb==0.0.0"
+]
